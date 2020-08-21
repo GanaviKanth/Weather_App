@@ -1,0 +1,51 @@
+body {
+    color: #fcfbf8;
+    font-family: arial; 
+    width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-image: url("luke-chesser-eICUFSeirc0-unsplash.jpg");
+    background-position: 20px 10px;
+    background-repeat: no-repeat;
+    background: linear-gradient( #ec2fa4, #230de9);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+a{
+    color: lime;
+}
+
+#message-1{
+    color: rgb(255, 217, 0);
+}
+#message-2{
+    color: yellow;
+}
+
+.main_content{
+    flex-grow: 1;
+}
+
+footer {
+    color: rgb(41, 225, 231);
+    padding: 6px;
+    margin: 6px;
+}
+
+header {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: rgb(238, 235, 234);
+}
+
+.portrait {
+    width: 100px;
+}
+
+header a{
+    color: 888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
